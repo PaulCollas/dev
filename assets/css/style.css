@@ -1,0 +1,531 @@
+/*
+* ========== CSS STYLE FOR LANDING PAGE WIKI.JS ==========
+*
+*
+*
+* GLOBALES
+* HEADER
+* CARDS
+*
+*/
+
+
+/* ====================== GLOBALES ====================== */
+
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,600,700|Rubik:400,600,700");
+
+body {
+    color: #383F42;
+    font-family: "Poppins", sans-serif;
+}
+
+
+
+
+
+
+
+/* ====================== HEADER ====================== */
+
+/* Proprietes */
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 45vh;
+    text-align: center;
+}
+
+.color-title-header {
+    color: #008690;
+}
+
+.header__title {
+    font-size: 50px;
+    line-height: 55px;
+}
+
+.header__buttons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.header__button {
+    border: 1px solid #333;
+    background-color: #fff;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    margin: 25px;
+    padding: 20px;
+    text-decoration: none;
+    color : #333
+}
+
+.header__button:hover {
+    border: 1px solid #008690;
+    background-color: #008690;
+    color: aliceblue;
+}
+
+/* Responsive */
+
+/* Phone */
+@media (max-width: 415px) {
+  .header {
+    height: 65vh;
+  }
+  .header__title {
+    font-size: 40px;
+    line-height: 45px;
+  }
+  .header__description {
+    font-size: 13px;
+  }
+  .header__button {
+    font-size: 15px;
+    margin: 15px;
+  }
+}
+
+
+/* Tablet */
+@media (max-width: 768px) {
+
+
+}
+
+
+/* ====================== END HEADER ====================== */
+
+
+
+
+/* ====================== CARDS ====================== */
+
+
+/* Proprietes */
+.card-section {
+  height: 27vh;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+      /* width: 200px;
+      height: 200px; */
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+.card-block {
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #333;
+    margin: 20px;
+}
+
+.icon-card {
+    font-size: 35px;
+    color: #008690;
+}
+
+.card-link {
+    text-decoration: none;
+}
+
+.card__icon {
+    font-size: 75px;
+    color: #333;
+}
+
+.card__title {
+    margin-top: 10px;
+    font-size: 22px;
+    color: #333;
+}
+
+.card-description {
+    font-size: 12px;
+    color: #000;
+}
+
+/* Responsive */
+
+/* Phone */
+@media (max-width: 415px) {
+  .card-section {
+    height: 66vh;
+  } 
+}
+
+
+/* Tablet */
+@media (max-width: 768px) {
+
+
+}
+
+/* ====================== ENDS CARDS ====================== */
+
+
+
+
+
+
+
+
+/* ======================  BLOCKS AND NEW DOCS ====================== */
+
+/* Proprietes */
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 45vh;
+}
+
+.section-1 {
+  width: 33%;
+}
+
+
+.section-2 {
+  border: 1px solid black;
+  padding: 20px;
+  height: min-content;
+}
+
+.block {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    margin: 15px;
+    flex: 1;
+}
+
+.link-block {
+    text-decoration: none;
+    color: #333;
+}
+
+.section-block {
+    display: flex;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+}
+
+.icon-block {
+  color: #008690;
+  font-size: 30px;
+}
+
+.title {
+    margin-top: 10px;
+}
+
+.main-title {
+    margin-bottom: 10px;
+    font-size: 35px;
+}
+
+.link-icon {
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin-right: 10px;
+}
+
+.link {
+    text-decoration: underline;
+    color: grey;
+} 
+
+.list-link-new-doc {
+  list-style-type: none;
+  padding: 0;
+}
+
+.link-new-doc {
+  margin-bottom: 10px;
+}
+
+
+/* Responsive */
+
+/* Phone */
+@media (max-width: 415px) {
+  .container {
+    height: 85vh;
+  }
+  .main-title {
+    margin-left: 10px;
+    font-size: 30px;
+  }
+  .section-1 {
+    width: 100%;
+  }
+}
+
+
+/* Tablet */
+@media (max-width: 768px) {
+
+
+}
+
+/* ====================== END BLOCKS AND NEW DOCS ====================== */
+
+
+/* ====================== HELP ====================== */
+
+/* Proprietes */
+.help-container {
+  height: 45vh;
+}
+
+
+.link-help {
+  background-color: #008690;
+  color: aliceblue;
+  padding: 13px;
+  text-decoration: none;
+}
+
+.container-help {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.title-help {
+  text-align: center;
+  font-size: 35px;
+
+}
+
+.subtitle-help {
+  text-align: center;
+}
+
+.icon-help {
+  color: #008690;
+  font-size: 45px;
+}
+
+/* Responsive */
+
+/* Phone */
+@media (max-width: 415px) {
+  .help-container {
+    height: 90vh;
+  }
+}
+
+
+/* Tablet */
+@media (max-width: 768px) {
+
+
+}
+
+/* ====================== END HELP ====================== */
+
+
+
+
+
+
+/* ====================== TABS ====================== */
+
+/* Proprietes */
+
+ body {
+   animation: fake 1s infinite;
+}
+
+.title-tabs {
+  width: 50%;
+  margin-left: 215px;
+}
+ .worko-tabs {
+    margin: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ .worko-tabs .state {
+   position: absolute;
+   left: -10000px;
+}
+
+.tab {
+    border: 1px solid #333;
+    margin: 15px;
+}
+
+ .worko-tabs .flex-tabs {
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   width: 80%;
+}
+ .worko-tabs .flex-tabs .tab {
+   flex-grow: 1;
+   max-height: 40px;
+}
+ .worko-tabs .flex-tabs .panel {
+   background-color: #fff;
+   padding: 20px;
+   min-height: 300px;
+   display: none;
+   width: 100%;
+   flex-basis: auto;
+}
+ .worko-tabs .tab {
+   display: inline-block;
+   padding: 10px;
+   vertical-align: top;
+   background-color: #fff;
+   cursor: hand;
+   cursor: pointer;
+   text-align: center;
+}
+ .worko-tabs .tab:hover {
+   background-color: #fff;
+}
+ #tab-one:checked ~ .tabs #tab-one-label, #tab-two:checked ~ .tabs #tab-two-label, #tab-three:checked ~ .tabs #tab-three-label, #tab-four:checked ~ .tabs #tab-four-label, #tab-five:checked ~ .tabs #tab-five-label, #tab-six:checked ~ .tabs #tab-six-label {
+   background-color: #fff;
+   cursor: default;
+   background-color: #008690;
+   color: aliceblue;
+   border: 0px
+}
+ #tab-one:checked ~ .tabs #tab-one-panel, #tab-two:checked ~ .tabs #tab-two-panel, #tab-three:checked ~ .tabs #tab-three-panel, #tab-four:checked ~ .tabs #tab-four-panel, #tab-five:checked ~ .tabs #tab-five-panel, #tab-six:checked ~ .tabs #tab-six-panel {
+   display: block;
+}
+
+.title-docs {
+  font-size: 35px;
+}
+
+.button-tabs {
+  border: 1px solid #333;
+  background-color: #fff;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  margin: 25px;
+  padding: 5px 15px 5px 15px;
+  text-decoration: none;
+  color: #333;
+  justify-content: center;
+  flex: 1;
+}
+
+.container-link-tabs {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+
+
+ @media (max-width: 600px) {
+   .flex-tabs {
+     flex-direction: column;
+  }
+   .flex-tabs .tab {
+     background: #fff;
+     border-bottom: 1px solid #ccc;
+  }
+   .flex-tabs .tab:last-of-type {
+     border-bottom: none;
+  }
+   .flex-tabs #tab-one-label {
+     order: 1;
+  }
+   .flex-tabs #tab-two-label {
+     order: 3;
+  }
+   .flex-tabs #tab-three-label {
+     order: 5;
+  }
+   .flex-tabs #tab-four-label {
+     order: 7;
+  }
+  .flex-tabs #tab-five-label {
+    order: 9;
+  }
+  .flex-tabs #tab-six-label {
+    order: 11;
+  }
+   .flex-tabs #tab-one-panel {
+     order: 2;
+  }
+   .flex-tabs #tab-two-panel {
+     order: 4;
+  }
+   .flex-tabs #tab-three-panel {
+     order: 6;
+  }
+   .flex-tabs #tab-four-panel {
+     order: 8;
+  }
+  .flex-tabs #tab-five-panel {
+    order: 10;
+  }
+  .flex-tabs #tab-six-panel {
+    order: 12;
+  }
+   #tab-one:checked ~ .tabs #tab-one-label, #tab-two:checked ~ .tabs #tab-two-label, #tab-three:checked ~ .tabs #tab-three-label, #tab-four:checked ~ .tabs #tab-four-label, #tab-five:checked ~ .tabs #tab-five-label, #tab-six:checked ~ .tabs #tab-six-label{
+     border-bottom: none;
+  }
+   #tab-one:checked ~ .tabs #tab-one-panel, #tab-two:checked ~ .tabs #tab-two-panel, #tab-three:checked ~ .tabs #tab-three-panel, #tab-four:checked ~ .tabs #tab-four-panel, #tab-five:checked ~ .tabs #tab-five-panel, #tab-six:checked ~ .tabs #tab-six-panel{
+     border-bottom: 1px solid #ccc;
+  }
+
+
+/* Responsive */
+
+/* Phone */
+@media (max-width: 415px) {
+  .title-tabs {
+    width: 95%;
+    margin-left: 26px;
+  }
+  .worko-tabs {
+    margin: 0px;
+  }
+}
+
+
+/* Tablet */
+@media (max-width: 768px) {
+
+
+}
+
+/* ====================== ENDS Tabs ====================== */
+
+
+
+}
+
+  
