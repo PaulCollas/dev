@@ -2,7 +2,7 @@
 * ========== CSS STYLE FOR LANDING PAGE WIKI.JS ==========
 *
 *
-*
+* CSS FOR DELETE INITIAL HOMEPAGE
 * GLOBALES
 * HEADER
 * CARDS
@@ -11,6 +11,26 @@
 * POPULAR DOCS
 *
 */
+
+/* ====================== CSS FOR DELETE INITIAL HOMEPAGE ====================== */
+
+
+.v-application--wrap {
+  min-height: 0vh
+}
+.v-main {
+  display: none;
+  min-height: 0vh
+}
+.v-footer {
+  display: none;
+}
+.v-navigation-drawer {
+  display: none;
+}
+
+
+
 
 
 /* ====================== GLOBALES ====================== */
@@ -30,8 +50,6 @@ body {
   justify-content: center;
   margin: 20px;
 }
-
-
 
 
 
@@ -112,9 +130,6 @@ body {
   }
 }
 
-/* Small PC */
-@media (max-width: 969px) {}
-
 
 /* ====================== END HEADER ====================== */
 
@@ -171,11 +186,6 @@ body {
 
 /* Responsive */
 
-/* Small PC */
-@media (max-width: 969px) {
-
-}
-
 /* Tablet */
 @media (max-width: 768px) {
   .link-card-section {
@@ -198,12 +208,7 @@ body {
   }
 }
 
-
-
 /* ====================== ENDS CARDS ====================== */
-
-
-
 
 
 
@@ -301,12 +306,6 @@ body {
   }
 }
 
-/* Tablet */
-@media (max-width: 768px) {
-
-}
-
-
 /* Phone */
 @media (max-width: 415px) {
   .shortcuts-new-docs-container {
@@ -327,12 +326,9 @@ body {
 }
 }
 
-
-
-
-
-
 /* ====================== END SHORTSCUTS AND NEW DOCS ====================== */
+
+
 
 
 /* ====================== HELP ====================== */
@@ -375,22 +371,12 @@ body {
 
 /* Responsive */
 
-/* Small PC */
-@media (max-width: 969px) {}
-
-/* Tablet */
-@media (max-width: 768px) {}
-
 /* Phone */
 @media (max-width: 415px) {
   .help-container {
     height: 90vh;
   }
 }
-
-
-
-
 
 /* ====================== END HELP ====================== */
 
@@ -587,10 +573,6 @@ body {
     border-bottom: 1px solid #ccc;
   }
 }
-
-/* Small PC */
-@media (max-width: 969px) {}
-
 /* Tablet */
 @media (max-width: 820px) {
 
@@ -611,10 +593,5 @@ body {
     margin: 0px;
   }
 }
-
-
-
-
-
 
 /* ====================== ENDS POPULAR DOCS ====================== */
