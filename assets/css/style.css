@@ -75,9 +75,6 @@ body {
 
 /* Phone */
 @media (max-width: 415px) {
-  .header {
-    height: 65vh;
-  }
   .header-title {
     font-size: 40px;
     line-height: 45px;
@@ -94,8 +91,14 @@ body {
 
 /* Tablet */
 @media (max-width: 768px) {
-
-
+  .header-button {
+    font-size: 15px;
+    margin: 9px;
+    padding: 16px;
+  }
+  .header {
+    height: 65vh;
+  }
 }
 
 /* Small PC */
@@ -141,6 +144,7 @@ body {
     padding: 20px;
     border: 1px solid #333;
     margin: 20px;
+    width: 11%;
 }
 
 .link-card-icon {
@@ -172,15 +176,15 @@ body {
 
 /* Phone */
 @media (max-width: 415px) {
-  .link-card-section {
-    height: 75vh;
-  } 
+
 }
 
 
 /* Tablet */
 @media (max-width: 768px) {
-
+  .link-card-section {
+    height: 75vh;
+  } 
 
 }
 
