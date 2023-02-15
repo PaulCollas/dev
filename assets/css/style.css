@@ -171,21 +171,34 @@ body {
 
 /* Responsive */
 
-/* Phone */
-@media (max-width: 415px) {}
+/* Small PC */
+@media (max-width: 969px) {
 
+}
 
 /* Tablet */
 @media (max-width: 768px) {
   .link-card-section {
-    height: 75vh;
+    height: 45vh;
+  }
+
+  .link-card-block {
+    width: auto;
   }
 
 }
 
+/* Phone */
+@media (max-width: 415px) {
+  .link-card-section {
+    height: 75vh;
+  }
+  .link-card-block {
+    width: 100%;
+  }
+}
 
-/* Small PC */
-@media (max-width: 969px) {}
+
 
 /* ====================== ENDS CARDS ====================== */
 
@@ -278,10 +291,26 @@ body {
 
 /* Responsive */
 
+/* Small PC */
+@media (max-width: 1071px) {
+  .shortcuts-section {
+    width: auto;
+  }
+  .shortcuts-new-docs-container {
+    height: 85vh;
+  }
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+
+}
+
+
 /* Phone */
 @media (max-width: 415px) {
   .shortcuts-new-docs-container {
-    height: 90vh;
+    height: 100vh;
   }
 
   .shortcuts-new-docs-title {
@@ -292,14 +321,16 @@ body {
   .shortcuts-section {
     width: 100%;
   }
+
+  .new-docs-section {
+    width: 80%;
+}
 }
 
 
-/* Tablet */
-@media (max-width: 768px) {}
 
-/* Small PC */
-@media (max-width: 969px) {}
+
+
 
 /* ====================== END SHORTSCUTS AND NEW DOCS ====================== */
 
@@ -344,6 +375,12 @@ body {
 
 /* Responsive */
 
+/* Small PC */
+@media (max-width: 969px) {}
+
+/* Tablet */
+@media (max-width: 768px) {}
+
 /* Phone */
 @media (max-width: 415px) {
   .help-container {
@@ -352,11 +389,8 @@ body {
 }
 
 
-/* Tablet */
-@media (max-width: 768px) {}
 
-/* Small PC */
-@media (max-width: 969px) {}
+
 
 /* ====================== END HELP ====================== */
 
@@ -554,7 +588,17 @@ body {
   }
 }
 
+/* Small PC */
+@media (max-width: 969px) {}
 
+/* Tablet */
+@media (max-width: 820px) {
+
+  .popular-docs-title {
+    width: auto;
+    margin-left: 110px;
+  }
+}
 
 /* Phone */
 @media (max-width: 415px) {
@@ -569,10 +613,8 @@ body {
 }
 
 
-/* Tablet */
-@media (max-width: 768px) {}
 
-/* Small PC */
-@media (max-width: 969px) {}
+
+
 
 /* ====================== ENDS POPULAR DOCS ====================== */
