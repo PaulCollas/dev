@@ -8,7 +8,8 @@
 * CARDS
 * SHORTSCUTS AND NEW DOCS
 * HELP
-* TABS
+* POPULAR DOCS
+*
 */
 
 
@@ -17,11 +18,18 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:400,600,700|Rubik:400,600,700");
 
 body {
-    color: #383F42;
-    font-family: "Poppins", sans-serif;
+  color: #383F42;
+  font-family: "Poppins", sans-serif;
 }
 
-
+.card {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
 
 
 
@@ -31,44 +39,44 @@ body {
 
 /* Proprietes */
 .header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 45vh;
-    text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 45vh;
+  text-align: center;
 }
 
 .title-color {
-    color: #008690;
+  color: #008690;
 }
 
 .header-title {
-    font-size: 50px;
-    line-height: 55px;
+  font-size: 50px;
+  line-height: 55px;
 }
 
 .header-buttons {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .header-button {
-    border: 1px solid #333;
-    background-color: #fff;
-    font-size: 20px;
-    font-family: "Poppins", sans-serif;
-    margin: 25px;
-    padding: 20px;
-    text-decoration: none;
-    color : #333
+  border: 1px solid #333;
+  background-color: #fff;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  margin: 25px;
+  padding: 20px;
+  text-decoration: none;
+  color: #333
 }
 
 .header-button:hover {
-    border: 1px solid #008690;
-    background-color: #008690;
-    color: aliceblue;
+  border: 1px solid #008690;
+  background-color: #008690;
+  color: aliceblue;
 }
 
 /* Responsive */
@@ -79,9 +87,11 @@ body {
     font-size: 40px;
     line-height: 45px;
   }
+
   .header-description {
     font-size: 13px;
   }
+
   .header-button {
     font-size: 15px;
     margin: 15px;
@@ -96,16 +106,14 @@ body {
     margin: 9px;
     padding: 16px;
   }
+
   .header {
     height: 65vh;
   }
 }
 
 /* Small PC */
-@media (max-width: 969px) {
-
-
-}
+@media (max-width: 969px) {}
 
 
 /* ====================== END HEADER ====================== */
@@ -122,78 +130,62 @@ body {
 }
 
 .link-card-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.card {
-      /* width: 200px;
-      height: 200px; */
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .link-card-block {
-    align-items: center;
-    text-align: center;
-    padding: 20px;
-    border: 1px solid #333;
-    margin: 20px;
-    width: 11%;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #333;
+  margin: 20px;
+  width: 11%;
 }
 
 .link-card-icon {
-    font-size: 35px;
-    color: #008690;
+  font-size: 35px;
+  color: #008690;
 }
 
 .link-card {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .card__icon {
-    font-size: 75px;
-    color: #333;
+  font-size: 75px;
+  color: #333;
 }
 
 .link-card-title {
-    margin-top: 10px;
-    font-size: 22px;
-    color: #333;
+  margin-top: 10px;
+  font-size: 22px;
+  color: #333;
 }
 
 .link-card-description {
-    font-size: 12px;
-    color: #000;
+  font-size: 12px;
+  color: #000;
 }
 
 /* Responsive */
 
 /* Phone */
-@media (max-width: 415px) {
-
-}
+@media (max-width: 415px) {}
 
 
 /* Tablet */
 @media (max-width: 768px) {
   .link-card-section {
     height: 75vh;
-  } 
+  }
 
 }
 
 
 /* Small PC */
-@media (max-width: 969px) {
-
-
-}
+@media (max-width: 969px) {}
 
 /* ====================== ENDS CARDS ====================== */
 
@@ -208,10 +200,10 @@ body {
 
 /* Proprietes */
 .shortcuts-new-docs-container {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    height: 45vh;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  height: 45vh;
 }
 
 .shortcuts-section {
@@ -219,33 +211,33 @@ body {
 }
 
 
-.section-2 {
+.new-docs-section {
   border: 1px solid black;
   padding: 20px;
   height: min-content;
 }
 
 .shortcuts-card {
-    border: 1px solid black;
-    padding: 10px;
-    text-align: center;
-    margin: 15px;
-    flex: 1;
+  border: 1px solid black;
+  padding: 10px;
+  text-align: center;
+  margin: 15px;
+  flex: 1;
 }
 
 .shortcuts-link {
-    text-decoration: none;
-    color: #333;
+  text-decoration: none;
+  color: #333;
 }
 
 .shortcuts-block {
-    display: flex;
+  display: flex;
 }
 
 .icon {
-    width: 50px;
-    height: 50px;
-    margin: 0 auto;
+  width: 50px;
+  height: 50px;
+  margin: 0 auto;
 }
 
 .shortcuts-icon {
@@ -254,32 +246,32 @@ body {
 }
 
 .title {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
 .shortcuts-new-docs-title {
-    margin-bottom: 10px;
-    font-size: 35px;
+  margin-bottom: 10px;
+  font-size: 35px;
 }
 
 .link-icon {
-    width: 20px;
-    height: 20px;
-    float: left;
-    margin-right: 10px;
+  width: 20px;
+  height: 20px;
+  float: left;
+  margin-right: 10px;
 }
 
 .link {
-    text-decoration: underline;
-    color: grey;
-} 
+  text-decoration: underline;
+  color: grey;
+}
 
-.list-link-new-doc {
+.new-docs-section {
   list-style-type: none;
   padding: 0;
 }
 
-.link-new-doc {
+.new-docs-link {
   margin-bottom: 10px;
 }
 
@@ -291,10 +283,12 @@ body {
   .shortcuts-new-docs-container {
     height: 90vh;
   }
+
   .shortcuts-new-docs-title {
     margin-left: 10px;
     font-size: 30px;
   }
+
   .shortcuts-section {
     width: 100%;
   }
@@ -302,16 +296,10 @@ body {
 
 
 /* Tablet */
-@media (max-width: 768px) {
-
-
-}
+@media (max-width: 768px) {}
 
 /* Small PC */
-@media (max-width: 969px) {
-
-
-}
+@media (max-width: 969px) {}
 
 /* ====================== END SHORTSCUTS AND NEW DOCS ====================== */
 
@@ -339,7 +327,7 @@ body {
   flex-wrap: wrap;
 }
 
-.title-help {
+.help-title {
   text-align: center;
   font-size: 35px;
 
@@ -349,7 +337,7 @@ body {
   text-align: center;
 }
 
-.icon-help {
+.help-icon {
   color: #008690;
   font-size: 45px;
 }
@@ -365,16 +353,10 @@ body {
 
 
 /* Tablet */
-@media (max-width: 768px) {
-
-
-}
+@media (max-width: 768px) {}
 
 /* Small PC */
-@media (max-width: 969px) {
-
-
-}
+@media (max-width: 969px) {}
 
 /* ====================== END HELP ====================== */
 
@@ -383,74 +365,87 @@ body {
 
 
 
-/* ====================== TABS ====================== */
+/* ====================== POPULAR DOCS ====================== */
 
 /* Proprietes */
 
- body {
-   animation: fake 1s infinite;
-}
-
-.title-tabs {
+.popular-docs-title {
   width: 50%;
   margin-left: 215px;
 }
- .worko-tabs {
-    margin: 20px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+.popular-docs-tabs {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
- .worko-tabs .state {
-   position: absolute;
-   left: -10000px;
+
+.popular-docs-tabs .state {
+  position: absolute;
+  left: -10000px;
 }
 
 .tab {
-    border: 1px solid #333;
-    margin: 15px;
+  border: 1px solid #333;
+  margin: 15px;
 }
 
- .worko-tabs .flex-tabs {
-   display: flex;
-   justify-content: space-between;
-   flex-wrap: wrap;
-   width: 80%;
+.popular-docs-tabs .flex-tabs {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 80%;
 }
- .worko-tabs .flex-tabs .tab {
-   flex-grow: 1;
-   max-height: 40px;
+
+.popular-docs-tabs .flex-tabs .tab {
+  flex-grow: 1;
+  max-height: 40px;
 }
- .worko-tabs .flex-tabs .panel {
-   background-color: #fff;
-   padding: 20px;
-   min-height: 300px;
-   display: none;
-   width: 100%;
-   flex-basis: auto;
+
+.popular-docs-tabs .flex-tabs .panel {
+  background-color: #fff;
+  padding: 20px;
+  min-height: 300px;
+  display: none;
+  width: 100%;
+  flex-basis: auto;
 }
- .worko-tabs .tab {
-   display: inline-block;
-   padding: 10px;
-   vertical-align: top;
-   background-color: #fff;
-   cursor: hand;
-   cursor: pointer;
-   text-align: center;
+
+.popular-docs-tabs .tab {
+  display: inline-block;
+  padding: 10px;
+  vertical-align: top;
+  background-color: #fff;
+  cursor: hand;
+  cursor: pointer;
+  text-align: center;
 }
- .worko-tabs .tab:hover {
-   background-color: #fff;
+
+.popular-docs-tabs .tab:hover {
+  background-color: #fff;
 }
- #tab-one:checked ~ .tabs #tab-one-label, #tab-two:checked ~ .tabs #tab-two-label, #tab-three:checked ~ .tabs #tab-three-label, #tab-four:checked ~ .tabs #tab-four-label, #tab-five:checked ~ .tabs #tab-five-label, #tab-six:checked ~ .tabs #tab-six-label {
-   background-color: #fff;
-   cursor: default;
-   background-color: #008690;
-   color: aliceblue;
-   border: 0px
+
+#tab-one:checked~.tabs #tab-one-label,
+#tab-two:checked~.tabs #tab-two-label,
+#tab-three:checked~.tabs #tab-three-label,
+#tab-four:checked~.tabs #tab-four-label,
+#tab-five:checked~.tabs #tab-five-label,
+#tab-six:checked~.tabs #tab-six-label {
+  background-color: #fff;
+  cursor: default;
+  background-color: #008690;
+  color: aliceblue;
+  border: 0px
 }
- #tab-one:checked ~ .tabs #tab-one-panel, #tab-two:checked ~ .tabs #tab-two-panel, #tab-three:checked ~ .tabs #tab-three-panel, #tab-four:checked ~ .tabs #tab-four-panel, #tab-five:checked ~ .tabs #tab-five-panel, #tab-six:checked ~ .tabs #tab-six-panel {
-   display: block;
+
+#tab-one:checked~.tabs #tab-one-panel,
+#tab-two:checked~.tabs #tab-two-panel,
+#tab-three:checked~.tabs #tab-three-panel,
+#tab-four:checked~.tabs #tab-four-panel,
+#tab-five:checked~.tabs #tab-five-panel,
+#tab-six:checked~.tabs #tab-six-panel {
+  display: block;
 }
 
 .title-docs {
@@ -479,57 +474,83 @@ body {
 
 /* Responsive */
 @media (max-width: 600px) {
-   .flex-tabs {
-     flex-direction: column;
+  .flex-tabs {
+    flex-direction: column;
   }
-   .flex-tabs .tab {
-     background: #fff;
-     border-bottom: 1px solid #ccc;
+
+  .flex-tabs .tab {
+    background: #fff;
+    border-bottom: 1px solid #ccc;
   }
-   .flex-tabs .tab:last-of-type {
-     border-bottom: none;
+
+  .flex-tabs .tab:last-of-type {
+    border-bottom: none;
   }
-   .flex-tabs #tab-one-label {
-     order: 1;
+
+  .flex-tabs #tab-one-label {
+    order: 1;
   }
-   .flex-tabs #tab-two-label {
-     order: 3;
+
+  .flex-tabs #tab-two-label {
+    order: 3;
   }
-   .flex-tabs #tab-three-label {
-     order: 5;
+
+  .flex-tabs #tab-three-label {
+    order: 5;
   }
-   .flex-tabs #tab-four-label {
-     order: 7;
+
+  .flex-tabs #tab-four-label {
+    order: 7;
   }
+
   .flex-tabs #tab-five-label {
     order: 9;
   }
+
   .flex-tabs #tab-six-label {
     order: 11;
   }
-   .flex-tabs #tab-one-panel {
-     order: 2;
+
+  .flex-tabs #tab-one-panel {
+    order: 2;
   }
-   .flex-tabs #tab-two-panel {
-     order: 4;
+
+  .flex-tabs #tab-two-panel {
+    order: 4;
   }
-   .flex-tabs #tab-three-panel {
-     order: 6;
+
+  .flex-tabs #tab-three-panel {
+    order: 6;
   }
-   .flex-tabs #tab-four-panel {
-     order: 8;
+
+  .flex-tabs #tab-four-panel {
+    order: 8;
   }
+
   .flex-tabs #tab-five-panel {
     order: 10;
   }
+
   .flex-tabs #tab-six-panel {
     order: 12;
   }
-   #tab-one:checked ~ .tabs #tab-one-label, #tab-two:checked ~ .tabs #tab-two-label, #tab-three:checked ~ .tabs #tab-three-label, #tab-four:checked ~ .tabs #tab-four-label, #tab-five:checked ~ .tabs #tab-five-label, #tab-six:checked ~ .tabs #tab-six-label{
-     border-bottom: none;
+
+  #tab-one:checked~.tabs #tab-one-label,
+  #tab-two:checked~.tabs #tab-two-label,
+  #tab-three:checked~.tabs #tab-three-label,
+  #tab-four:checked~.tabs #tab-four-label,
+  #tab-five:checked~.tabs #tab-five-label,
+  #tab-six:checked~.tabs #tab-six-label {
+    border-bottom: none;
   }
-   #tab-one:checked ~ .tabs #tab-one-panel, #tab-two:checked ~ .tabs #tab-two-panel, #tab-three:checked ~ .tabs #tab-three-panel, #tab-four:checked ~ .tabs #tab-four-panel, #tab-five:checked ~ .tabs #tab-five-panel, #tab-six:checked ~ .tabs #tab-six-panel{
-     border-bottom: 1px solid #ccc;
+
+  #tab-one:checked~.tabs #tab-one-panel,
+  #tab-two:checked~.tabs #tab-two-panel,
+  #tab-three:checked~.tabs #tab-three-panel,
+  #tab-four:checked~.tabs #tab-four-panel,
+  #tab-five:checked~.tabs #tab-five-panel,
+  #tab-six:checked~.tabs #tab-six-panel {
+    border-bottom: 1px solid #ccc;
   }
 }
 
@@ -537,30 +558,21 @@ body {
 
 /* Phone */
 @media (max-width: 415px) {
-  .title-tabs {
+  .popular-docs-title {
     width: 95%;
     margin-left: 26px;
   }
-  .worko-tabs {
+
+  .popular-docs-tabs {
     margin: 0px;
   }
 }
 
 
 /* Tablet */
-@media (max-width: 768px) {
-
-
-}
+@media (max-width: 768px) {}
 
 /* Small PC */
-@media (max-width: 969px) {
+@media (max-width: 969px) {}
 
-
-}
-
-/* ====================== ENDS Tabs ====================== */
-
-
-
-  
+/* ====================== ENDS POPULAR DOCS ====================== */
