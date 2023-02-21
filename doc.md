@@ -70,7 +70,7 @@ Intégrateur : https://voip.commeett.fr/documentation/fr/integrateur
 
 
 Besoin d'aide : https://voip.commeett.fr/documentation/fr/Documentation-BesoinAide
-Les interfaces : https://voip.commeett.fr/documentation/fr/interfaces (à completer)
+Les interfaces : https://voip.commeett.fr/documentation/fr/interfaces
 Téléphones : https://voip.commeett.fr/documentation/fr/telephones
 
 
