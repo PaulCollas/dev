@@ -14,28 +14,46 @@
 
 /* ====================== CSS FOR DELETE INITIAL HOMEPAGE ====================== */
 
-
-/* .v-application--wrap {
-  min-height: 0vh
+.v-application--wrap {
+  min-height: 0vh !important;
 }
 .v-main {
-  display: none;
-  min-height: 0vh
+  min-height: 0vh !important;
+}
+.grid-list-xl {
+  display: none !important;
 }
 .v-footer {
-  display: none;
+  display: none !important;
+  min-height: 0vh !important;
 }
 .v-navigation-drawer {
-  display: none;
-} */
-
+  display: none !important;
+  min-height: 0vh !important;
+}
+.page-shortcuts-card {
+  display: none !important;
+  min-height: 0vh !important;
+}
+.page-header-section {
+  display: none !important;
+  min-height: 0vh !important;
+}
+.page-toc-card {
+  display: none !important;
+  min-height: 0vh !important; 
+}
+.page-author-card {
+  display: none !important;
+  min-height: 0vh !important;   
+}
 
 
 
 
 /* ====================== GLOBALES ====================== */
 
-@import url("https://fonts.googleapis.com/css?family=Poppins:400,600,700|Rubik:400,600,700");
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,600,700,800,900|Rubik:400,600,700"); 
 
 body {
   color: #383F42;
@@ -57,12 +75,9 @@ body {
 
 /* Proprietes */
 .header {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  display: block;
   height: 45vh;
-  text-align: center;
+  margin-top: 100px;
 }
 
 .title-color {
@@ -70,8 +85,27 @@ body {
 }
 
 .header-title {
-  font-size: 50px;
-  line-height: 55px;
+  font-size: 60px;
+  line-height: 70px;
+}
+
+.header-title, .header-description, .header-description-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.header-description {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.header-description-button {
+  font-size: 20px;
+  margin-top: 20px;
+  color: #008690;
 }
 
 .header-buttons {
@@ -141,7 +175,8 @@ body {
 
 /* Proprietes */
 .link-card-section {
-  height: 27vh;
+  height: 30vh;
+  display: block;
 }
 
 .link-card-container {
@@ -219,20 +254,22 @@ body {
 /* Proprietes */
 .shortcuts-new-docs-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   flex-wrap: wrap;
   height: 45vh;
 }
 
 .shortcuts-section {
   width: 33%;
+  margin-right: 65px;
 }
 
 
 .new-docs-section {
   border: 1px solid black;
-  padding: 20px;
+  padding: 40px;
   height: min-content;
+  margin-left: 65px;
 }
 
 .shortcuts-card {
@@ -261,6 +298,7 @@ body {
 .shortcuts-icon {
   color: #008690;
   font-size: 30px;
+  margin-top: 15px;
 }
 
 .title {
@@ -393,6 +431,8 @@ body {
   width: 50%;
   margin-left: 215px;
 }
+
+
 
 .popular-docs-tabs {
   margin: 20px;
