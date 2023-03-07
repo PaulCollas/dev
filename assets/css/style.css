@@ -60,15 +60,6 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-.card {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin: 80px;
-}
-
-
 
 /* ====================== HEADER ====================== */
 
@@ -399,6 +390,15 @@ body {
 /* Proprietes */
 .help-container {
   height: 45vh;
+}
+
+
+.card-help {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 80px;
 }
 
 

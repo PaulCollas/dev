@@ -92,3 +92,33 @@ Manuels : https://voip.commeett.fr/documentation/fr/DocumentationBesoinAide/manu
 
 
 
+
+NEW FEATURES : 
+
+GET STARTED : 
+- réception des mails pour la plateforme et mantis, 
+- prise en main, 
+- créer sa première entreprise cliente, 
+- créer sa première ligne centrex, 
+- tester le softphone, 
+- tester les groupes, 
+- tester les présentations de numéros
+
+
+
+
+
+# STYLE
+
+.v-application .primary {
+    background-color: #008690 !important;
+    border-color: #008690 !important;
+}
+
+.v-main .contents h1 {
+    color: #008690;
+}
+
+
+
+
